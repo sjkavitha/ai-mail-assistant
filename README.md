@@ -96,3 +96,22 @@ Summarize this email
 Write a polite email asking for a project update
 
 Reply to this email
+
+ai-mail-assistant/
+│
+├── backend/
+│   ├── server.js
+│   ├── package.json
+│   └── package-lock.json
+│
+├── frontend/
+│   ├── src/
+│   │   ├── App.jsx
+│   │   ├── App.css
+│   │   └── main.jsx
+│   ├── public/
+│   ├── package.json
+│   └── vite.config.js
+│
+├── .gitignore
+└── README.md
