@@ -27,6 +27,36 @@ This project explores a simpler interaction model:
 The goal was not to build another Gmail clone, but to add a natural-language layer on top of essential email workflows.
 
 ---
+                 ┌──────────────────┐
+                 │     React UI     │
+                 │                  │
+                 │ Inbox / Sent     │
+                 │ Starred / Trash  │
+                 │ Compose / Search │
+                 └────────┬─────────┘
+                          │
+                          ▼
+                 ┌──────────────────┐
+                 │  AI Assistant    │
+                 │                  │
+                 │ Natural language │
+                 │     commands     │
+                 └────────┬─────────┘
+                          │
+                          ▼
+                 ┌──────────────────┐
+                 │  Node + Express  │
+                 │     Backend      │
+                 └────────┬─────────┘
+                          │
+             ┌────────────┴────────────┐
+             ▼                         ▼
+      ┌──────────────┐         ┌──────────────┐
+      │  Gmail API   │         │ Gemini API   │
+      │              │         │              │
+      │ Email data   │         │ AI compose   │
+      │ Send / Read  │         │ Summarize    │
+      └──────────────┘         └──────────────┘
 
 ## What it can do
 
